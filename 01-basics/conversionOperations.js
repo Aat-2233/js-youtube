@@ -19,3 +19,16 @@ let number = 45
 let stringNumber = String(number)
 console.log(typeof(stringNumber))
 console.log(stringNumber);
+
+
+let str1="hello"
+let str2 =" aatreyee"
+let str3= str1+str2;
+console.log(str3)
+
+console.log(+true);
+console.log(+"");
+
+let gamecounter = 100;
+gamecounter++
+console.log(gamecounter);
