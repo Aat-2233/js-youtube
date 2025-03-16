@@ -19,3 +19,22 @@ const myFunction = function(){
     console.log("hello world");
 }
 console.log(typeof(myobject));
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+//stack(primitive)(changes are made in a copy), heap(non-primitive)(changes are ade in original)
+let myname="Aatreyee"
+let anothername= myname ;
+anothername ="suju";
+console.log(myname);
+console.log(anothername);
+
+let userone= {
+    email:"user1@gmail.com",
+    upi : "user1@ybl",
+}
+let usertwo=userone;
+usertwo.email="user2@gmail.com"; //elements in objects are acessed like this 
+console.log(userone.email);
+console.log(usertwo.email);
+
