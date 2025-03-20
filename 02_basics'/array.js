@@ -12,6 +12,29 @@ myarr.pop();
 myarr.unshift(9) //adds value to the first
 myarr.shift();
 myarr.shift(); //removes value from the first 
+console.log(myarr.includes(2));
+console.log(myarr.indexOf(2));
+const newarr= myarr.join(); // coverts the array to string
+//console.log(myarr);
+console.log(newarr);
+console.log(typeof(newarr));
 
-console.log(myarr);
+//slice and splice 
+console.log("A-", myarr);
+const newA = myarr.slice(1,3);
+console.log(newA);
+
+
+console.log("B -", myarr);
+const newB = myarr.splice(1,3); //the values are index of the array
+console.log(newB);
+console.log("after splice", myarr);
+
+
+
+
+
+
+
+
 
