@@ -2,7 +2,7 @@ const flowers =[ "lily", "rose", "sunflower" , "marigold"];
 const fruits =["watermelon", "guava", "apple","orange"];
  const arr = flowers.concat(fruits); //adds arrays 
 console.log(arr);
-//another way of adding arrays(more usable)
+//another way of adding arrays(more usable)(more than 2 array can be added)
 const newarr=[...flowers , ...fruits];
 console.log(newarr);
 
