@@ -45,7 +45,18 @@ console.log(Tinderuser);
 console.log(Object.keys(Tinderuser)); //gives in the form of array 
 console.log(Object.values(Tinderuser));//gives in the form of array 
 console.log(Object.entries(Tinderuser));
-console.log(Object.hasownproperties(isLoggedin)); //shows if the propety is present or not 
+console.log(Tinderuser.hasOwnProperty("isLoggedin")); //shows if the propety is present or not 
+
+//destructuring 
+const course ={
+    coursename:"JS in hindi",
+    price:"999",
+    courseInstructure:"Aatreyee"
+}
+//extracting values
+const{courseInstructure}=course;
+console.log(courseInstructure);
+
 
 
 
